@@ -1,0 +1,2 @@
+ymodem.c:185:6:Ymodem_Init	16	static
+ymodem.c:226:19:Ymodem_Receive	80	static

@@ -1,0 +1,14 @@
+lora_app.c:760:13:OnSysTimeUpdate	0	static
+lora_app.c:765:13:OnMacProcessNotify	0	static
+lora_app.c:776:13:OnFragProgress	32	static
+lora_app.c:645:13:OnTxTimerEvent	0	static
+lora_app.c:857:16:FragDecoderErase	0	static
+lora_app.c:878:16:FragDecoderWrite	0	static
+lora_app.c:897:16:FragDecoderRead	0	static
+lora_app.c:658:13:OnTxData	24	static
+lora_app.c:688:13:OnJoinRequest	16	static
+lora_app.c:722:13:OnClassChange	32	static
+lora_app.c:568:13:OnRxData	40	static
+lora_app.c:790:13:OnFragDone	32	static
+lora_app.c:363:6:LoRaWAN_Init	40	static
+lora_app.c:433:6:LoRaWAN_Process	56	static,ignoring_inline_asm

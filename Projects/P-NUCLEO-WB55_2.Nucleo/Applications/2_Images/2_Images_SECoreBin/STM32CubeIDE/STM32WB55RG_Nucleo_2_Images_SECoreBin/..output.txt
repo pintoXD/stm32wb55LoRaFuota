@@ -1,0 +1,8 @@
+prebuild.sh : started
+prepareimage with python script
+python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SECoreBin/Debug/prepareimage.py
+ selected
+prepareimage with python script
+python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SECoreBin/Debug/prepareimage.py
+ selected
+ln -s ./.sh ../..postbuild.sh : failed

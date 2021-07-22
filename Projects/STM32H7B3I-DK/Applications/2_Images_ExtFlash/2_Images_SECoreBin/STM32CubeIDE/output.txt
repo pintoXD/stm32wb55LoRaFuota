@@ -1,0 +1,4 @@
+prebuild.sh : started
+prepareimage with windows executable
+ A:/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/win/prepareimage/prepareimage.exe
+SECBOOT_ECCDSA_WITH_AES128_CTR_SHA256 selected

@@ -1,0 +1,5 @@
+core_cm4.h:1939:34:__NVIC_SystemReset	0	static,ignoring_inline_asm
+test_protections.c:305:13:TEST_PROTECTIONS_CORRUPT_PrintMenu	8	static
+test_protections.c:191:13:TEST_PROTECTIONS_PrintTestingMenu	8	static
+test_protections.c:123:6:TEST_PROTECTIONS_RunMenu	64	static
+test_protections.c:451:6:HAL_RTCEx_Tamper2EventCallback	0	static

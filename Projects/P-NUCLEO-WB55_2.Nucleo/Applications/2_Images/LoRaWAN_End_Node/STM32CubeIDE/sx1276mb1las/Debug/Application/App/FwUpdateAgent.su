@@ -1,0 +1,2 @@
+FwUpdateAgent.c:67:6:FwUpdateAgentRun	520	static,ignoring_inline_asm
+FwUpdateAgent.c:101:19:FwUpdateAgentDataTransferFromRamToFlash	24	static

@@ -1,0 +1,5 @@
+FlashMemHandler.c:86:17:GetPage	0	static
+FlashMemHandler.c:359:26:FlashMemHandler_Read	16	static
+FlashMemHandler.c:160:26:FlashMemHandler_Init	8	static
+FlashMemHandler.c:297:26:FlashMemHandler_Write	56	static
+FlashMemHandler.c:197:26:FlashMemHandler_Erase_Size	40	static

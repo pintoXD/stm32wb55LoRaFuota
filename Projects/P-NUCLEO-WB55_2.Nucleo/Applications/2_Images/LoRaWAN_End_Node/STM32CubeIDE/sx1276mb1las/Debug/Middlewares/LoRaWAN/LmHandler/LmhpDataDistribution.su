@@ -1,0 +1,2 @@
+LmhpDataDistribution.c:39:24:LmhpDataDistributionInit	0	static
+LmhpDataDistribution.c:63:24:LmhpDataDistributionPackageRegister	8	static

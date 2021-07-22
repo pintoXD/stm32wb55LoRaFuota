@@ -1,0 +1,14 @@
+flash_if.c:343:17:GetPage	0	static
+flash_if.c:307:19:FLASH_INT_If_Clear_Error	8	static
+flash_if.c:64:19:FLASH_If_Init	0	static
+flash_if.c:122:19:FLASH_If_Read	8	static
+flash_if.c:141:19:FLASH_INT_Init	0	static
+flash_if.c:152:19:FLASH_INT_If_Erase_Size	40	static
+flash_if.c:81:19:FLASH_If_Erase_Size	0	static
+flash_if.c:212:19:FLASH_INT_If_Write	24	static
+flash_if.c:101:19:FLASH_If_Write	0	static
+flash_if.c:270:19:FLASH_INT_If_Read	8	static
+flash_if.c:278:19:FLASH_EXT_Init	0	static
+flash_if.c:286:19:FLASH_EXT_If_Erase_Size	0	static
+flash_if.c:291:19:FLASH_EXT_If_Write	0	static
+flash_if.c:296:19:FLASH_EXT_If_Read	0	static

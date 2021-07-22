@@ -1,0 +1,23 @@
+block size =16
+Magic: b'SFU1'!!
+Magic: b'SFU1'!!
+number of segment :6
+0x8080800
+0x8085670
+0x8085680
+0x8085738
+0x8085740
+number of segment :6
+0x80001f8
+0x8004e80
+0x8008758
+0x800ea98
+0x800eb58
+Merging
+SBSFU Base = 0x8000000
+Writing header = 0x8080000
+APPLI Base = 0x8080400
+Writing to ./../Binary/SBSFU_appliB.bin 546624
+Generating the partial image .sfb
+block size =16
+Magic: b'SFU1'!!

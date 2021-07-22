@@ -1,0 +1,3 @@
+otas_stm.c:130:30:OTAS_Event_Handler	24	static
+otas_stm.c:229:6:OTAS_STM_Init	48	static
+otas_stm.c:296:12:OTAS_STM_UpdateChar	16	static
