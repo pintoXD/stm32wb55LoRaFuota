@@ -1,0 +1,3 @@
+stm32wbxx_it.c:35:6:SysTick_Handler	0	static
+stm32wbxx_it.c:52:6:IPCC_C1_TX_IRQHandler	0	static
+stm32wbxx_it.c:64:6:IPCC_C1_RX_IRQHandler	0	static

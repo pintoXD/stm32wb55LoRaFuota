@@ -1,0 +1,6 @@
+se_cm0.c:55:6:CM0_Init	48	static
+se_cm0.c:67:6:CM0_DeInit	8	static
+se_cm0.c:164:6:shci_notify_asynch_evt	0	static
+se_cm0.c:176:6:shci_cmd_resp_release	0	static
+se_cm0.c:192:6:shci_cmd_resp_wait	0	static
+se_cm0.c:369:16:CM0_Update	32	static,ignoring_inline_asm

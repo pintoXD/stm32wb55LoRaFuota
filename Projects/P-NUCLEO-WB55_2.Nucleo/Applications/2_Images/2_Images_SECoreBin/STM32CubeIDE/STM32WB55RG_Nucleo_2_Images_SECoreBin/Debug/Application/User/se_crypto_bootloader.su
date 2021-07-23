@@ -1,0 +1,12 @@
+se_crypto_bootloader.c:385:16:SE_CRYPTO_Encrypt_Init	0	static
+se_crypto_bootloader.c:466:16:SE_CRYPTO_Header_Append	0	static
+se_crypto_bootloader.c:501:16:SE_CRYPTO_Encrypt_Append	0	static
+se_crypto_bootloader.c:541:16:SE_CRYPTO_Encrypt_Finish	0	static
+se_crypto_bootloader.c:586:16:SE_CRYPTO_Decrypt_Init	24	static
+se_crypto_bootloader.c:732:16:SE_CRYPTO_Decrypt_Append	16	static
+se_crypto_bootloader.c:789:16:SE_CRYPTO_Decrypt_Finish	8	static
+se_crypto_bootloader.c:858:16:SE_CRYPTO_AuthenticateFW_Init	8	static
+se_crypto_bootloader.c:911:16:SE_CRYPTO_AuthenticateFW_Append	8	static
+se_crypto_bootloader.c:956:16:SE_CRYPTO_AuthenticateFW_Finish	8	static
+se_crypto_bootloader.c:994:16:SE_CRYPTO_Authenticate_Metadata	240	static
+se_crypto_bootloader.c:1243:6:SE_CRYPTO_Lock_CKS_Keys	8	static

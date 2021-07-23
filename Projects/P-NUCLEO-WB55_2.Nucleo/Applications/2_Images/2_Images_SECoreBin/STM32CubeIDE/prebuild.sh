@@ -1,7 +1,9 @@
 #!/bin/bash
 #prebuild script 
-# echo prebuild.sh : started > $1output.txt
-asmfile=$1se_key.s
+
+echo "AQUI? ó $1"
+echo prebuild.sh : started > output.txt
+asmfile=se_key.s
 # comment this line to force python
 # python is used if  executable not found
 current_directory=`pwd`
@@ -9,8 +11,8 @@ current_directory=`pwd`
 # echo "CARALHO QUE ÓDIO"
 # echo $current_directory
 # ls $current_directory/../../../../../../Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages
-
-cd ../../../../../../Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages
+# echo $current_directory
+cd ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages
 basedir=`pwd`
 cd $current_directory
 
@@ -24,13 +26,13 @@ if [ $? -eq 0 ] && [  -e "$prepareimage" ]; then
   cmd=""
 else
   # line for python
-  echo "prepareimage with python script" >> $1output.txt
+  echo "prepareimage with python script" >> output.txt
   echo "prepareimage with python script"
   prepareimage=$basedir/prepareimage.py
   cmd=python3
 fi
 
-echo "$cmd $prepareimage" >> $1output.txt
+echo "$cmd $prepareimage" >> output.txt
 crypto_h=$1../Inc/se_crypto_config.h
 
 #clean
@@ -63,10 +65,10 @@ echo "	.thumb " >> $asmfile
 # AES keys part
 if [ $ret -eq 0 ]; then
   type="vide"
-  if [ $crypto = "SECBOOT_AES128_GCM_AES128_GCM_AES128_GCM" ]; then
+  if [[ $crypto = "SECBOOT_AES128_GCM_AES128_GCM_AES128_GCM" ]]; then
     type="GCM"
   fi  
-  if [ $crypto = "SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256" ]; then
+  if [[ $crypto = "SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256" ]]; then
     type="CBC"
   fi
 
@@ -102,10 +104,10 @@ fi
 # ECC keys part
 if [ $ret -eq 0 ]; then
   type="vide"
-  if [ $crypto = "SECBOOT_ECCDSA_WITHOUT_ENCRYPT_SHA256" ]; then
+  if [[ $crypto = "SECBOOT_ECCDSA_WITHOUT_ENCRYPT_SHA256" ]]; then
     type="ECC"
   fi  
-  if [ $crypto = "SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256" ]; then
+  if [[ $crypto = "SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256" ]]; then
     type="ECC"
   fi
 
