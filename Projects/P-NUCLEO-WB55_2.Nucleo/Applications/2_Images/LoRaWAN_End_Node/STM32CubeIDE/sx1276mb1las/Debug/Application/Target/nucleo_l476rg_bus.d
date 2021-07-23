@@ -1,7 +1,7 @@
 Application/Target/nucleo_l476rg_bus.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_bus.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_bus.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/stm32l4xx_nucleo_conf.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_bus.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_bus.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/stm32l4xx_nucleo_conf.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../../Core/Inc/stm32wbxx_hal_conf.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h \
@@ -53,11 +53,11 @@ Application/Target/nucleo_l476rg_bus.o: \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_usart_ex.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h \
  ../../../Core/Inc/stm32wbxx_it.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_errno.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_errno.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_bus.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_bus.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/stm32l4xx_nucleo_conf.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/stm32l4xx_nucleo_conf.h:
 
 ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:
 
@@ -161,4 +161,4 @@ Application/Target/nucleo_l476rg_bus.o: \
 
 ../../../Core/Inc/stm32wbxx_it.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_errno.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/Target/nucleo_l476rg_errno.h:

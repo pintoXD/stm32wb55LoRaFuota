@@ -1,5 +1,5 @@
 Application/App/lora_app.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app.c \
  ../../../Core/Inc/platform.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h \
@@ -74,20 +74,20 @@ Application/App/lora_app.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h \
  ../../../../../../../../Utilities/sequencer/stm32_seq.h \
  ../../../Core/Inc/utilities_def.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app_version.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app_version.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h \
  ../../../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276/subghz_phy_version.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h \
  ../../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h \
  ../../../Core/Inc/adc_if.h ../../../Core/Inc/adc.h \
  ../../../Core/Inc/platform.h ../../../Core/Inc/sys_conf.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h \
  ../../../Core/Inc/sys_sensors.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h \
@@ -96,8 +96,8 @@ Application/App/lora_app.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpRemoteMcastSetup.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FwUpdateAgent.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FwUpdateAgent.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h
 
 ../../../Core/Inc/platform.h:
@@ -250,19 +250,19 @@ Application/App/lora_app.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app.h:
 
 ../../../../../../../../Utilities/sequencer/stm32_seq.h:
 
 ../../../Core/Inc/utilities_def.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app_version.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_app_version.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h:
 
 ../../../../../../../../Middlewares/Third_Party/SubGHz_Phy/sx1276/subghz_phy_version.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h:
 
@@ -280,7 +280,7 @@ Application/App/lora_app.o: \
 
 ../../../Core/Inc/sys_conf.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/CayenneLpp.h:
 
 ../../../Core/Inc/sys_sensors.h:
 
@@ -298,8 +298,8 @@ Application/App/lora_app.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FwUpdateAgent.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FwUpdateAgent.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h:

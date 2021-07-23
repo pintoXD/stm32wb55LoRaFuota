@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32wbxx.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/CMSIS/Device/ST/STM32WBxx/Source/Templates/system_stm32wbxx.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/CMSIS/Device/ST/STM32WBxx/Source/Templates/system_stm32wbxx.c \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h \
  ../../../../../../../../Drivers/CMSIS/Include/core_cm4.h \

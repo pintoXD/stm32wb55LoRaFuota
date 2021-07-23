@@ -1,19 +1,19 @@
 Middlewares/LoRaWAN/Mac/LoRaMacClassB.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.c \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../Core/Inc/utilities_conf.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../LoRaWAN/Target/timer.h \
  ../../../../../../../../Utilities/timer/stm32_timer.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
  ../../../LoRaWAN/Target/systime.h \
  ../../../../../../../../Utilities/misc/stm32_systime.h \
  ../../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio.h \
@@ -26,9 +26,9 @@ Middlewares/LoRaWAN/Mac/LoRaMacClassB.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBConfig.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBConfig.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.h
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:
 
@@ -42,21 +42,21 @@ Middlewares/LoRaWAN/Mac/LoRaMacClassB.o: \
 
 ../../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:
 
 ../../../LoRaWAN/Target/timer.h:
 
 ../../../../../../../../Utilities/timer/stm32_timer.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h:
 
 ../../../LoRaWAN/Target/systime.h:
 
@@ -84,8 +84,8 @@ Middlewares/LoRaWAN/Mac/LoRaMacClassB.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBConfig.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassBConfig.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.h:

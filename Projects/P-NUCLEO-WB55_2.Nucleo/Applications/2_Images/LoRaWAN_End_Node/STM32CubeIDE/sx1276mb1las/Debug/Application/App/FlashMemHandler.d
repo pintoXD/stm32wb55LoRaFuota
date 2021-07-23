@@ -1,6 +1,6 @@
 Application/App/FlashMemHandler.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h \
  ../../../../../../../../Drivers/CMSIS/Include/core_cm4.h \
@@ -58,7 +58,7 @@ Application/App/FlashMemHandler.o: \
  ../../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/FlashMemHandler.h:
 
 ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h:
 

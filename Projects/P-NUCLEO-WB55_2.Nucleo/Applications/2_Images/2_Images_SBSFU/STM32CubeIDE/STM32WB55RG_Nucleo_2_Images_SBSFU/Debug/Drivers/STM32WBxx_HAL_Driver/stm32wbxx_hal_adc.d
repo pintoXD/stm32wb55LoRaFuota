@@ -1,5 +1,5 @@
 Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_adc.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc.c \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../../Core/Inc/stm32wbxx_hal_conf.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h \

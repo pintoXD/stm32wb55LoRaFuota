@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/LmHandler/LmhpFragmentation.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.c \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
@@ -19,10 +19,10 @@ Middlewares/LoRaWAN/LmHandler/LmhpFragmentation.o: \
  ../../../Core/Inc/sys_conf.h \
  ../../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h:
 
@@ -64,10 +64,10 @@ Middlewares/LoRaWAN/LmHandler/LmhpFragmentation.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacClassB.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpFragmentation.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/FragDecoder.h:

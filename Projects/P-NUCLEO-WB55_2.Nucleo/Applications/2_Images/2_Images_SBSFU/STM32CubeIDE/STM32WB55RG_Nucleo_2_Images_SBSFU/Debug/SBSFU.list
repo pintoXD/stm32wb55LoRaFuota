@@ -13,23 +13,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
   4 .RamFunc      00000030  0800aad8  0800aad8  0001aad8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  5 .rodata       00001360  0800ab08  0800ab08  0001ab08  2**3
+  5 .rodata       00001330  0800ab08  0800ab08  0001ab08  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  6 .ARM.extab    00000000  0800be68  0800be68  000210a8  2**0
+  6 .ARM.extab    00000000  0800be38  0800be38  000210a8  2**0
                   CONTENTS
-  7 .ARM          00000008  0800be68  0800be68  0001be68  2**2
+  7 .ARM          00000008  0800be38  0800be38  0001be38  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  8 .preinit_array 00000000  0800be70  0800be70  000210a8  2**0
+  8 .preinit_array 00000000  0800be40  0800be40  000210a8  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .init_array   00000008  0800be70  0800be70  0001be70  2**2
+  9 .init_array   00000008  0800be40  0800be40  0001be40  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 10 .fini_array   00000008  0800be78  0800be78  0001be78  2**2
+ 10 .fini_array   00000008  0800be48  0800be48  0001be48  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 11 .data         00000098  20001010  0800be80  00021010  2**2
+ 11 .data         00000098  20001010  0800be50  00021010  2**2
                   CONTENTS, ALLOC, LOAD, DATA
- 12 .bss          0000097c  200010a8  0800bf18  000210a8  2**3
+ 12 .bss          0000097c  200010a8  0800bee8  000210a8  2**3
                   ALLOC
- 13 ._user_heap_stack 00003004  20001a24  0800bf18  00021a24  2**0
+ 13 ._user_heap_stack 00003004  20001a24  0800bee8  00021a24  2**0
                   ALLOC
  14 .ARM.attributes 00000030  00000000  00000000  000210a8  2**0
                   CONTENTS, READONLY
@@ -43,15 +43,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  19 .debug_macro  0002c281  00000000  00000000  0005ab88  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line   00029b43  00000000  00000000  00086e09  2**0
+ 20 .debug_line   0002979b  00000000  00000000  00086e09  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_str    001050bc  00000000  00000000  000b094c  2**0
+ 21 .debug_str    00104cfc  00000000  00000000  000b05a4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .comment      00000053  00000000  00000000  001b5a08  2**0
+ 22 .comment      00000053  00000000  00000000  001b52a0  2**0
                   CONTENTS, READONLY
- 23 .debug_frame  00003d50  00000000  00000000  001b5a5c  2**2
+ 23 .debug_frame  00003d50  00000000  00000000  001b52f4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_loc    0000f5ff  00000000  00000000  001b97ac  2**0
+ 24 .debug_loc    0000f5ff  00000000  00000000  001b9044  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text.SE_CORE_Bin:
@@ -7615,7 +7615,7 @@ SFU_ErrorStatus SFU_IMG_LaunchActiveImg(uint32_t SlotNumber)
  8005290:	0800ab9c 	.word	0x0800ab9c
  8005294:	200018cc 	.word	0x200018cc
  8005298:	200018c8 	.word	0x200018c8
- 800529c:	0800ba2f 	.word	0x0800ba2f
+ 800529c:	0800ba17 	.word	0x0800ba17
  80052a0:	0800b986 	.word	0x0800b986
  80052a4:	00122f11 	.word	0x00122f11
 
@@ -7643,7 +7643,7 @@ uint32_t SFU_IMG_GetFwImageSlot(SE_FwRawHeaderTypeDef *pFwImageHeader)
  80052b6:	0940      	lsrs	r0, r0, #5
  80052b8:	bd08      	pop	{r3, pc}
  80052ba:	bf00      	nop
- 80052bc:	0800ba69 	.word	0x0800ba69
+ 80052bc:	0800ba51 	.word	0x0800ba51
 
 080052c0 <VerifyHeaderSignature>:
 {
@@ -7928,7 +7928,7 @@ SFU_ErrorStatus SFU_IMG_CheckCandidateVersion(uint32_t DwlSlot)
  800547c:	200018cc 	.word	0x200018cc
  8005480:	200018c8 	.word	0x200018c8
  8005484:	0800b986 	.word	0x0800b986
- 8005488:	0800ba2f 	.word	0x0800ba2f
+ 8005488:	0800ba17 	.word	0x0800ba17
 
 0800548c <CleanMagicValue>:
   * @brief  Clean Magic value
@@ -8072,9 +8072,9 @@ static SFU_ErrorStatus EraseSlotIndex(uint32_t SlotNumber, uint32_t index)
  800555c:	0800abdc 	.word	0x0800abdc
  8005560:	00122f11 	.word	0x00122f11
  8005564:	200018cc 	.word	0x200018cc
- 8005568:	0800ba2f 	.word	0x0800ba2f
+ 8005568:	0800ba17 	.word	0x0800ba17
  800556c:	200018c8 	.word	0x200018c8
- 8005570:	0800ba6e 	.word	0x0800ba6e
+ 8005570:	0800ba56 	.word	0x0800ba56
 
 08005574 <FirmwareToInstall.constprop.0>:
   * @brief  Check that there is an Image to Install
@@ -8535,8 +8535,8 @@ static SFU_ErrorStatus DecryptImageInDwlSlot(uint32_t DwlSlot, SE_FwRawHeaderTyp
  8005858:	00122f11 	.word	0x00122f11
  800585c:	200018cc 	.word	0x200018cc
  8005860:	200018c8 	.word	0x200018c8
- 8005864:	0800ba2f 	.word	0x0800ba2f
- 8005868:	0800ba6e 	.word	0x0800ba6e
+ 8005864:	0800ba17 	.word	0x0800ba17
+ 8005868:	0800ba56 	.word	0x0800ba56
 
 0800586c <FirmwareToResume.constprop.0>:
 static SFU_ErrorStatus  FirmwareToResume(uint32_t ActiveSlot, uint32_t DwlSlot, SE_FwRawHeaderTypeDef *pValidHeader,
@@ -8815,8 +8815,8 @@ static SFU_ErrorStatus  FirmwareToResume(uint32_t ActiveSlot, uint32_t DwlSlot, 
  8005a80:	00122f11 	.word	0x00122f11
  8005a84:	200018cc 	.word	0x200018cc
  8005a88:	200018c8 	.word	0x200018c8
- 8005a8c:	0800ba2f 	.word	0x0800ba2f
- 8005a90:	0800ba6e 	.word	0x0800ba6e
+ 8005a8c:	0800ba17 	.word	0x0800ba17
+ 8005a90:	0800ba56 	.word	0x0800ba56
  8005a94:	20001788 	.word	0x20001788
  8005a98:	0800abdc 	.word	0x0800abdc
  8005a9c:	200018d0 	.word	0x200018d0
@@ -9218,15 +9218,15 @@ static SFU_ErrorStatus SwapFirmwareImages(uint32_t ActiveSlot, uint32_t DwlSlot,
  8005d92:	bf00      	nop
  8005d94:	0800ab9c 	.word	0x0800ab9c
  8005d98:	0800abbc 	.word	0x0800abbc
- 8005d9c:	0800bb15 	.word	0x0800bb15
+ 8005d9c:	0800bae5 	.word	0x0800bae5
  8005da0:	20001788 	.word	0x20001788
  8005da4:	00122f11 	.word	0x00122f11
  8005da8:	0800ac00 	.word	0x0800ac00
  8005dac:	0800ac08 	.word	0x0800ac08
  8005db0:	200018cc 	.word	0x200018cc
  8005db4:	200018c8 	.word	0x200018c8
- 8005db8:	0800ba2f 	.word	0x0800ba2f
- 8005dbc:	0800ba6e 	.word	0x0800ba6e
+ 8005db8:	0800ba17 	.word	0x0800ba17
+ 8005dbc:	0800ba56 	.word	0x0800ba56
           e_ret_status = EraseSlotIndex(DwlSlot, index_dwl_slot_write);
  8005dc0:	980f      	ldr	r0, [sp, #60]	; 0x3c
  8005dc2:	4639      	mov	r1, r7
@@ -9726,13 +9726,13 @@ SFU_IMG_InitStatusTypeDef SFU_IMG_CheckSwapImageHandling(void)
  800611e:	bf00      	nop
  8006120:	0800abbc 	.word	0x0800abbc
  8006124:	0800ab9c 	.word	0x0800ab9c
- 8006128:	0800bb53 	.word	0x0800bb53
- 800612c:	0800bb9f 	.word	0x0800bb9f
- 8006130:	0800bbe8 	.word	0x0800bbe8
- 8006134:	0800bc39 	.word	0x0800bc39
- 8006138:	0800bc9b 	.word	0x0800bc9b
+ 8006128:	0800bb23 	.word	0x0800bb23
+ 800612c:	0800bb6f 	.word	0x0800bb6f
+ 8006130:	0800bbb8 	.word	0x0800bbb8
+ 8006134:	0800bc09 	.word	0x0800bc09
+ 8006138:	0800bc6b 	.word	0x0800bc6b
  800613c:	00014fff 	.word	0x00014fff
- 8006140:	0800bccb 	.word	0x0800bccb
+ 8006140:	0800bc9b 	.word	0x0800bc9b
 
 08006144 <SFU_IMG_CheckPendingInstallation>:
   *         pending action)
@@ -9927,9 +9927,9 @@ SFU_ErrorStatus SFU_IMG_EraseDownloadedImg(uint32_t DwlSlot)
  8006244:	0800abbc 	.word	0x0800abbc
  8006248:	0800ab9c 	.word	0x0800ab9c
  800624c:	200018cc 	.word	0x200018cc
- 8006250:	0800ba2f 	.word	0x0800ba2f
+ 8006250:	0800ba17 	.word	0x0800ba17
  8006254:	200018c8 	.word	0x200018c8
- 8006258:	0800ba6e 	.word	0x0800ba6e
+ 8006258:	0800ba56 	.word	0x0800ba56
  800625c:	00122f11 	.word	0x00122f11
 
 08006260 <SFU_IMG_TriggerImageInstallation>:
@@ -12336,8 +12336,8 @@ SFU_ErrorStatus SFU_LL_SECU_CheckProtectionWRP(FLASH_OBProgramInitTypeDef *psFla
  8007060:	00000000 	.word	0x00000000
  8007064:	00014fff 	.word	0x00014fff
  8007068:	00122f11 	.word	0x00122f11
- 800706c:	0800bd07 	.word	0x0800bd07
- 8007070:	0800bd4a 	.word	0x0800bd4a
+ 800706c:	0800bcd7 	.word	0x0800bcd7
+ 8007070:	0800bd1a 	.word	0x0800bd1a
 
 08007074 <SFU_LL_SECU_GetResetSources>:
   if ((__HAL_RCC_GET_FLAG(RCC_FLAG_IWDGRST) != RESET) ||
@@ -12698,7 +12698,7 @@ SFU_ErrorStatus SFU_LL_SECU_SetProtectionMPU(uint8_t uStep)
  8007294:	e7bb      	b.n	800720e <SFU_LL_SECU_SetProtectionMPU+0xca>
  8007296:	bf00      	nop
  8007298:	00010000 	.word	0x00010000
- 800729c:	0800bd92 	.word	0x0800bd92
+ 800729c:	0800bd62 	.word	0x0800bd62
  80072a0:	0800ffff 	.word	0x0800ffff
  80072a4:	0800ac98 	.word	0x0800ac98
  80072a8:	e000ed00 	.word	0xe000ed00
@@ -13080,7 +13080,7 @@ LoopForever:
   ldr r1, =_edata
  80074c8:	200010a8 	.word	0x200010a8
   ldr r2, =_sidata
- 80074cc:	0800be80 	.word	0x0800be80
+ 80074cc:	0800be50 	.word	0x0800be50
   ldr r2, =_sbss
  80074d0:	200010a8 	.word	0x200010a8
   ldr r4, =_ebss
@@ -19170,10 +19170,10 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  8009872:	4798      	blx	r3
  8009874:	3601      	adds	r6, #1
  8009876:	e7f2      	b.n	800985e <__libc_init_array+0x1e>
- 8009878:	0800be70 	.word	0x0800be70
- 800987c:	0800be70 	.word	0x0800be70
- 8009880:	0800be70 	.word	0x0800be70
- 8009884:	0800be74 	.word	0x0800be74
+ 8009878:	0800be40 	.word	0x0800be40
+ 800987c:	0800be40 	.word	0x0800be40
+ 8009880:	0800be40 	.word	0x0800be40
+ 8009884:	0800be44 	.word	0x0800be44
 
 08009888 <memcmp>:
  8009888:	b530      	push	{r4, r5, lr}
@@ -19351,9 +19351,9 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  80099f6:	6022      	str	r2, [r4, #0]
  80099f8:	701d      	strb	r5, [r3, #0]
  80099fa:	e7db      	b.n	80099b4 <_puts_r+0x88>
- 80099fc:	0800bdf0 	.word	0x0800bdf0
- 8009a00:	0800be10 	.word	0x0800be10
- 8009a04:	0800bdd0 	.word	0x0800bdd0
+ 80099fc:	0800bdc0 	.word	0x0800bdc0
+ 8009a00:	0800bde0 	.word	0x0800bde0
+ 8009a04:	0800bda0 	.word	0x0800bda0
 
 08009a08 <puts>:
  8009a08:	4b02      	ldr	r3, [pc, #8]	; (8009a14 <puts+0xc>)
@@ -19521,9 +19521,9 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  8009b90:	e7b7      	b.n	8009b02 <setvbuf+0xea>
  8009b92:	bf00      	nop
  8009b94:	20001040 	.word	0x20001040
- 8009b98:	0800bdf0 	.word	0x0800bdf0
- 8009b9c:	0800be10 	.word	0x0800be10
- 8009ba0:	0800bdd0 	.word	0x0800bdd0
+ 8009b98:	0800bdc0 	.word	0x0800bdc0
+ 8009b9c:	0800bde0 	.word	0x0800bde0
+ 8009ba0:	0800bda0 	.word	0x0800bda0
 
 08009ba4 <__swbuf_r>:
  8009ba4:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
@@ -19597,9 +19597,9 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  8009c34:	f04f 37ff 	mov.w	r7, #4294967295	; 0xffffffff
  8009c38:	e7ea      	b.n	8009c10 <__swbuf_r+0x6c>
  8009c3a:	bf00      	nop
- 8009c3c:	0800bdf0 	.word	0x0800bdf0
- 8009c40:	0800be10 	.word	0x0800be10
- 8009c44:	0800bdd0 	.word	0x0800bdd0
+ 8009c3c:	0800bdc0 	.word	0x0800bdc0
+ 8009c40:	0800bde0 	.word	0x0800bde0
+ 8009c44:	0800bda0 	.word	0x0800bda0
 
 08009c48 <__swsetup_r>:
  8009c48:	4b32      	ldr	r3, [pc, #200]	; (8009d14 <__swsetup_r+0xcc>)
@@ -19691,9 +19691,9 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  8009d10:	e7f7      	b.n	8009d02 <__swsetup_r+0xba>
  8009d12:	bf00      	nop
  8009d14:	20001040 	.word	0x20001040
- 8009d18:	0800bdf0 	.word	0x0800bdf0
- 8009d1c:	0800be10 	.word	0x0800be10
- 8009d20:	0800bdd0 	.word	0x0800bdd0
+ 8009d18:	0800bdc0 	.word	0x0800bdc0
+ 8009d1c:	0800bde0 	.word	0x0800bde0
+ 8009d20:	0800bda0 	.word	0x0800bda0
 
 08009d24 <__sflush_r>:
  8009d24:	898a      	ldrh	r2, [r1, #12]
@@ -19869,9 +19869,9 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  8009e96:	bf08      	it	eq
  8009e98:	68ec      	ldreq	r4, [r5, #12]
  8009e9a:	e7da      	b.n	8009e52 <_fflush_r+0x22>
- 8009e9c:	0800bdf0 	.word	0x0800bdf0
- 8009ea0:	0800be10 	.word	0x0800be10
- 8009ea4:	0800bdd0 	.word	0x0800bdd0
+ 8009e9c:	0800bdc0 	.word	0x0800bdc0
+ 8009ea0:	0800bde0 	.word	0x0800bde0
+ 8009ea4:	0800bda0 	.word	0x0800bda0
 
 08009ea8 <std>:
  8009ea8:	2300      	movs	r3, #0
@@ -19996,7 +19996,7 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  8009fba:	61a3      	str	r3, [r4, #24]
  8009fbc:	e7d2      	b.n	8009f64 <__sinit+0xc>
  8009fbe:	bf00      	nop
- 8009fc0:	0800bdcc 	.word	0x0800bdcc
+ 8009fc0:	0800bd9c 	.word	0x0800bd9c
  8009fc4:	08009ef1 	.word	0x08009ef1
 
 08009fc8 <__sfp>:
@@ -20051,7 +20051,7 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  800a046:	603b      	str	r3, [r7, #0]
  800a048:	e7ee      	b.n	800a028 <__sfp+0x60>
  800a04a:	bf00      	nop
- 800a04c:	0800bdcc 	.word	0x0800bdcc
+ 800a04c:	0800bd9c 	.word	0x0800bd9c
  800a050:	ffff0001 	.word	0xffff0001
 
 0800a054 <_fwalk_reent>:
@@ -20622,14 +20622,14 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  800a550:	f000 f880 	bl	800a654 <_printf_i>
  800a554:	e7e4      	b.n	800a520 <_vfiprintf_r+0x208>
  800a556:	bf00      	nop
- 800a558:	0800bdf0 	.word	0x0800bdf0
- 800a55c:	0800be10 	.word	0x0800be10
- 800a560:	0800bdd0 	.word	0x0800bdd0
- 800a564:	0800be30 	.word	0x0800be30
- 800a568:	0800be3a 	.word	0x0800be3a
+ 800a558:	0800bdc0 	.word	0x0800bdc0
+ 800a55c:	0800bde0 	.word	0x0800bde0
+ 800a560:	0800bda0 	.word	0x0800bda0
+ 800a564:	0800be00 	.word	0x0800be00
+ 800a568:	0800be0a 	.word	0x0800be0a
  800a56c:	00000000 	.word	0x00000000
  800a570:	0800a2f3 	.word	0x0800a2f3
- 800a574:	0800be36 	.word	0x0800be36
+ 800a574:	0800be06 	.word	0x0800be06
 
 0800a578 <_printf_common>:
  800a578:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
@@ -20965,8 +20965,8 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  800a890:	f104 0619 	add.w	r6, r4, #25
  800a894:	e7f5      	b.n	800a882 <_printf_i+0x22e>
  800a896:	bf00      	nop
- 800a898:	0800be41 	.word	0x0800be41
- 800a89c:	0800be52 	.word	0x0800be52
+ 800a898:	0800be11 	.word	0x0800be11
+ 800a89c:	0800be22 	.word	0x0800be22
 
 0800a8a0 <_putc_r>:
  800a8a0:	b570      	push	{r4, r5, r6, lr}
@@ -21031,9 +21031,9 @@ HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_
  800a91c:	f7ff f942 	bl	8009ba4 <__swbuf_r>
  800a920:	4605      	mov	r5, r0
  800a922:	e7e3      	b.n	800a8ec <_putc_r+0x4c>
- 800a924:	0800bdf0 	.word	0x0800bdf0
- 800a928:	0800be10 	.word	0x0800be10
- 800a92c:	0800bdd0 	.word	0x0800bdd0
+ 800a924:	0800bdc0 	.word	0x0800bdc0
+ 800a928:	0800bde0 	.word	0x0800bde0
+ 800a92c:	0800bda0 	.word	0x0800bda0
 
 0800a930 <_sbrk_r>:
  800a930:	b538      	push	{r3, r4, r5, lr}

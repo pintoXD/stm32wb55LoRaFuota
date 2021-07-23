@@ -1,6 +1,6 @@
 Drivers/BSP/sx1276mb1las/sx1276mb1las.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/sx1276mb1las/sx1276mb1las.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/sx1276mb1las/sx1276mb1las.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/sx1276mb1las/sx1276mb1las.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/sx1276mb1las/sx1276mb1las.h \
  ../../../LoRaWAN/Target/sx1276mb1las_conf.h ../../../Core/Inc/platform.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h \
@@ -71,7 +71,7 @@ Drivers/BSP/sx1276mb1las/sx1276mb1las.o: \
  ../../../LoRaWAN/Target/stm32l4xx_nucleo_conf.h \
  ../../../LoRaWAN/Target/nucleo_l476rg_errno.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/sx1276mb1las/sx1276mb1las.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/sx1276mb1las/sx1276mb1las.h:
 
 ../../../LoRaWAN/Target/sx1276mb1las_conf.h:
 

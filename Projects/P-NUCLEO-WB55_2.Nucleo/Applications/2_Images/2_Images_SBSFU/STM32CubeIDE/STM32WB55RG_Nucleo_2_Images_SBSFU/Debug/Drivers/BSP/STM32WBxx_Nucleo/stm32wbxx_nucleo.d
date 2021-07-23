@@ -1,6 +1,6 @@
 Drivers/BSP/STM32WBxx_Nucleo/stm32wbxx_nucleo.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../../Core/Inc/stm32wbxx_hal_conf.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h \
@@ -51,7 +51,7 @@ Drivers/BSP/STM32WBxx_Nucleo/stm32wbxx_nucleo.o: \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_usart_ex.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h:
 
 ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:
 

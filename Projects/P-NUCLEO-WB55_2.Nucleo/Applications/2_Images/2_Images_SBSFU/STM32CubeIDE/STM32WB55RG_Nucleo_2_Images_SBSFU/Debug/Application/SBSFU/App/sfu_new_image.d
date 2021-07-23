@@ -1,5 +1,5 @@
 Application/SBSFU/App/sfu_new_image.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_new_image.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_new_image.c \
  ../../../Core/Inc/main.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../../Core/Inc/stm32wbxx_hal_conf.h \
@@ -54,18 +54,18 @@ Application/SBSFU/App/sfu_new_image.o: \
  ../../../SBSFU/App/app_sfu.h \
  ../../../../2_Images_SECoreBin/Inc/se_crypto_config.h \
  ../../../Core/Inc/app_hw.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_def.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_def.h \
  ../../../../Linker_Common/STM32CubeIDE/mapping_export.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/app_sfu.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/app_sfu.h \
  ../../../SBSFU/Target/sfu_low_level_flash_int.h \
  ../../../SBSFU/Target/sfu_low_level_flash.h ../../../SBSFU/App/sfu_def.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_new_image.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_services.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_new_image.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_services.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h \
  ../../../../2_Images_SECoreBin/Inc/se_def_metadata.h \
  ../../../../2_Images_SECoreBin/Inc/se_crypto_config.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_regions.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_regions.h
 
 ../../../Core/Inc/main.h:
 
@@ -175,11 +175,11 @@ Application/SBSFU/App/sfu_new_image.o: \
 
 ../../../Core/Inc/app_hw.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_def.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_def.h:
 
 ../../../../Linker_Common/STM32CubeIDE/mapping_export.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/app_sfu.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/app_sfu.h:
 
 ../../../SBSFU/Target/sfu_low_level_flash_int.h:
 
@@ -187,9 +187,9 @@ Application/SBSFU/App/sfu_new_image.o: \
 
 ../../../SBSFU/App/sfu_def.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_new_image.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_new_image.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_services.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_services.h:
 
 ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def.h:
 
@@ -199,4 +199,4 @@ Application/SBSFU/App/sfu_new_image.o: \
 
 ../../../../2_Images_SECoreBin/Inc/se_crypto_config.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_regions.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/SBSFU/App/sfu_fwimg_regions.h:

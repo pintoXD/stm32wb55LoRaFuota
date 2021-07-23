@@ -1,6 +1,6 @@
 Drivers/BSP/IKS01A2/iks01a2_env_sensors.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/IKS01A2/iks01a2_env_sensors.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/IKS01A2/iks01a2_env_sensors.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/IKS01A2/iks01a2_env_sensors.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/IKS01A2/iks01a2_env_sensors.h \
  ../../../LoRaWAN/Target/iks01a2_conf.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../../Core/Inc/stm32wbxx_hal_conf.h \
@@ -62,7 +62,7 @@ Drivers/BSP/IKS01A2/iks01a2_env_sensors.o: \
  ../../../../../../../../Drivers/BSP/Components/hts221/hts221.h \
  ../../../../../../../../Drivers/BSP/Components/hts221/hts221_reg.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Drivers/BSP/IKS01A2/iks01a2_env_sensors.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Drivers/BSP/IKS01A2/iks01a2_env_sensors.h:
 
 ../../../LoRaWAN/Target/iks01a2_conf.h:
 

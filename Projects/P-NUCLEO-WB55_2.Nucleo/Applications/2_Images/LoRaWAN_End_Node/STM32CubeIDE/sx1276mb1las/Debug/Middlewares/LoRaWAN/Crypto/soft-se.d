@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/Crypto/soft-se.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Crypto/soft-se.c \
  ../../../LoRaWAN/Target/lorawan_conf.h \
  ../../../../../../../../Utilities/misc/stm32_systime.h \
  ../../../Core/Inc/sys_app.h ../../../Core/Inc/sys_conf.h \
@@ -20,8 +20,8 @@ Middlewares/LoRaWAN/Crypto/soft-se.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
  ../../../LoRaWAN/App/se-identity.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h
 
 ../../../LoRaWAN/Target/lorawan_conf.h:
 
@@ -65,6 +65,6 @@ Middlewares/LoRaWAN/Crypto/soft-se.o: \
 
 ../../../LoRaWAN/App/se-identity.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Crypto/lorawan_aes.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Crypto/cmac.h:

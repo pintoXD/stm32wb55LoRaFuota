@@ -76,10 +76,10 @@ all:
 main-build: UserApp.elf secondary-outputs
 
 dependents:
-	-cd /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug && $(MAKE) all
+	-cd /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug && $(MAKE) all
 
 # Tool invocations
-UserApp.elf: $(OBJS) $(USER_OBJS) /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug/SBSFU.elf ../stm32wb55xx_flash_cm4.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+UserApp.elf: $(OBJS) $(USER_OBJS) /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug/SBSFU.elf ../stm32wb55xx_flash_cm4.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-gcc -o "UserApp.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"../stm32wb55xx_flash_cm4.ld" --specs=nosys.specs -Wl,-Map="UserApp.map" -Wl,--gc-sections -static -L../../../../2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug -Xlinker -L ../../../../Linker_Common/STM32CubeIDE -l:se_interface_app.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
@@ -121,6 +121,6 @@ warn-no-linker-script-specified:
 
 .PHONY: all clean dependents fail-specified-linker-script-missing warn-no-linker-script-specified
 .SECONDARY: post-build
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug/SBSFU.elf:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SBSFU/STM32CubeIDE/STM32WB55RG_Nucleo_2_Images_SBSFU/Debug/SBSFU.elf:
 
 -include ../makefile.targets

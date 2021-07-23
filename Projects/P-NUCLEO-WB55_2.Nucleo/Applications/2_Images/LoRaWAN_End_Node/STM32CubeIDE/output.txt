@@ -1,66 +1,19 @@
-python /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-python /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py sha256 ../../UserApp.bin ../../../Binary/UserApp.sign : failed
-python /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-python /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py sha256 ../../UserApp.bin ../../../Binary/UserApp.sign : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py sha256 ../../UserApp.bin ../../../Binary/UserApp.sign : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py sha256 ../../UserApp.bin ../../../Binary/UserApp.sign : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py sha256 ../../UserApp.bin ../../../Binary/UserApp.sign : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-No FW signing leaf cert
-No leaf cert
-No FW signing leaf cert
-No leaf cert
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py merge -v 0 -e 1 -i ../../../Binary/UserAppsfuh.bin -s /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Projects/NUCLEO-L476RG/Applications/LoRaWAN_FUOTA/2_Images_SBSFU/STM32CubeIDE/2_Images_SBSFU/Debug/SBSFU.elf ./UserApp.elf ../../../Binary/SBSFU_UserApp.bin : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-No FW signing leaf cert
-No leaf cert
-No FW signing leaf cert
-No leaf cert
+block size =16
+Magic: b'SFU1'!!
+Magic: b'SFU1'!!
 number of segment :5
-0x8086400
-0x80960d8
-0x80962e8
-0x80962f0
+0x8018400
+0x80281e0
+0x80283f0
+0x8028400
 number of segment :6
-0x8000188
-0x8005c30
-0x800998c
-0x8011440
-0x8011588
+0x8000140
+0x80033a1
+0x8003ae0
+0x800be50
+0x800bee8
 Merging
 SBSFU Base = 0x8000000
-Writing header = 0x8086000
-APPLI Base = 0x8086200
-Writing to ../../../Binary/SBSFU_UserApp.bin 615152
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py sha256 ../../UserApp.bin ../../../Binary/UserApp.sign : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-No FW signing leaf cert
-No leaf cert
-No FW signing leaf cert
-No leaf cert
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py merge -v 0 -e 1 -i ../../../Binary/UserAppsfuh.bin -s /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Projects/NUCLEO-L476RG/Applications/LoRaWAN_FUOTA/2_Images_SBSFU/STM32CubeIDE/2_Images_SBSFU/Debug/SBSFU.elf ./UserApp.elf ../../../Binary/SBSFU_UserApp.bin : failed
-python3 /home/otto/hd_storage/Downloads/STM32CubeExpansion_LRWAN_V2.0.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-No FW signing leaf cert
-No leaf cert
-No FW signing leaf cert
-No leaf cert
-number of segment :5
-0x8086400
-0x80960d8
-0x80962e8
-0x80962f0
-number of segment :6
-0x8000188
-0x8005c30
-0x800998c
-0x8011440
-0x8011588
-Merging
-SBSFU Base = 0x8000000
-Writing header = 0x8086000
-APPLI Base = 0x8086200
-Writing to ../../../Binary/SBSFU_UserApp.bin 615152
+Writing header = 0x8018000
+APPLI Base = 0x8018200
+Writing to ../../../Binary/SBSFU_UserApp.bin 164864

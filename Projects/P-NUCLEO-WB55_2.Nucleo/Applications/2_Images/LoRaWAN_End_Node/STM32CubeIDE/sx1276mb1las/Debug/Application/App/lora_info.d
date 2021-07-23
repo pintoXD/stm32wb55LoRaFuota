@@ -1,5 +1,5 @@
 Application/App/lora_info.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.c \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../Core/Inc/utilities_conf.h \
@@ -16,7 +16,7 @@ Application/App/lora_info.o: \
  ../../../LoRaWAN/Target/lorawan_conf.h ../../../Core/Inc/sys_app.h \
  ../../../Core/Inc/sys_conf.h \
  ../../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h:
 
@@ -52,4 +52,4 @@ Application/App/lora_info.o: \
 
 ../../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/LoRaWAN_End_Node/LoRaWAN/App/lora_info.h:

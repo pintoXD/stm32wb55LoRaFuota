@@ -58,7 +58,7 @@ static __IO bool DoubleECC_Check;
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
 static uint32_t GetPage(uint32_t uAddr);
-static uint32_t GetBank(uint32_t uAddr);
+//static uint32_t GetBank(uint32_t uAddr);
 static uint32_t GetBankAddr(uint32_t bank);
 
 static HAL_StatusTypeDef FlashMemHandler_Read(void *pDestination, const void *pSource, uint32_t Length);
@@ -112,7 +112,7 @@ static uint32_t GetPage(uint32_t uAddr)
 
   if (READ_BIT(SYSCFG->MEMRMP, SYSCFG_MEMRMP_FB_MODE) == 0U)
   {
-    /* No Bank swap
+//     No Bank swap
     if (uAddr < (FLASH_BASE + FLASH_BANK_SIZE))
     {
       bank = FLASH_BANK_1;
@@ -124,7 +124,7 @@ static uint32_t GetPage(uint32_t uAddr)
   }
   else
   {
-    /* Bank swap
+     Bank swap
     if (uAddr < (FLASH_BASE + FLASH_BANK_SIZE))
     {
       bank = FLASH_BANK_2;
@@ -146,7 +146,6 @@ static uint32_t GetPage(uint32_t uAddr)
   */
 static uint32_t GetBankAddr(uint32_t Bank)
 {
-
     return FLASH_BASE;
 
 }

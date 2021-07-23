@@ -1,5 +1,5 @@
 Middlewares/SubGHz_Phy/sx1276.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.c \
  ../../../Core/Inc/sys_debug.h ../../../Core/Inc/sys_conf.h \
  ../../../Core/Inc/platform.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
@@ -62,9 +62,9 @@ Middlewares/SubGHz_Phy/sx1276.o: \
  ../../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
  ../../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-Fsk.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-LoRa.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-Fsk.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-LoRa.h \
  ../../../LoRaWAN/Target/radio_conf.h ../../../Core/Inc/platform.h \
  ../../../LoRaWAN/Target/mw_log_conf.h \
  ../../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
@@ -203,11 +203,11 @@ Middlewares/SubGHz_Phy/sx1276.o: \
 
 ../../../../../../../../Middlewares/Third_Party/SubGHz_Phy/radio.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-Fsk.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-Fsk.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-LoRa.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/SubGHz_Phy/sx1276/sx1276Regs-LoRa.h:
 
 ../../../LoRaWAN/Target/radio_conf.h:
 

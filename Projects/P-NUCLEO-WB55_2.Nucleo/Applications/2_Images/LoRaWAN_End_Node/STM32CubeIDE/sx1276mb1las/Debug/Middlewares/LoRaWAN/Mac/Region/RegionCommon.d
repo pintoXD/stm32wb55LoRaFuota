@@ -1,6 +1,6 @@
 Middlewares/LoRaWAN/Mac/Region/RegionCommon.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h \
  ../../../LoRaWAN/Target/timer.h \
  ../../../../../../../../Utilities/timer/stm32_timer.h \
@@ -10,7 +10,7 @@ Middlewares/LoRaWAN/Mac/Region/RegionCommon.o: \
  ../../../../../../../../Utilities/misc/stm32_mem.h \
  ../../../../../../../../Utilities/misc/stm32_tiny_vsnprintf.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
  ../../../LoRaWAN/Target/systime.h \
@@ -22,7 +22,7 @@ Middlewares/LoRaWAN/Mac/Region/RegionCommon.o: \
  ../../../../../../../../Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../../../LoRaWAN/Target/mw_log_conf.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionCommon.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacTypes.h:
 
@@ -42,7 +42,7 @@ Middlewares/LoRaWAN/Mac/Region/RegionCommon.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h:
 

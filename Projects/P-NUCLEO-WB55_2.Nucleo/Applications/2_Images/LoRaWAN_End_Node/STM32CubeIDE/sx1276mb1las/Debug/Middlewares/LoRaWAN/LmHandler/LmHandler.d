@@ -1,5 +1,5 @@
 Middlewares/LoRaWAN/LmHandler/LmHandler.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.c \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/secure-element.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacCrypto.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Utilities/utilities.h \
@@ -13,8 +13,8 @@ Middlewares/LoRaWAN/LmHandler/LmHandler.o: \
  ../../../../../../../../Utilities/timer/stm32_timer.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacMessageTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h \
  ../../../LoRaWAN/Target/systime.h \
  ../../../../../../../../Utilities/misc/stm32_systime.h \
@@ -29,9 +29,9 @@ Middlewares/LoRaWAN/LmHandler/LmHandler.o: \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/Region/Region.h \
  ../../../LoRaWAN/Target/mw_log_conf.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h \
  ../../../LoRaWAN/App/Commissioning.h ../../../LoRaWAN/App/se-identity.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmCtxMgmt.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmCtxMgmt.h \
  ../../../LoRaWAN/App/lora_info.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhpCompliance.h \
  ../../../../../../../../Middlewares/Third_Party/LoRaWAN/LmHandler/Packages/LmhPackage.h \
@@ -66,9 +66,9 @@ Middlewares/LoRaWAN/LmHandler/LmHandler.o: \
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacHeaderTypes.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandler.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/LmHandlerTypes.h:
 
 ../../../../../../../../Middlewares/Third_Party/LoRaWAN/Mac/LoRaMac.h:
 
@@ -100,13 +100,13 @@ Middlewares/LoRaWAN/LmHandler/LmHandler.o: \
 
 ../../../LoRaWAN/Target/mw_log_conf.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/lorawan_version.h:
 
 ../../../LoRaWAN/App/Commissioning.h:
 
 ../../../LoRaWAN/App/se-identity.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmCtxMgmt.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/Third_Party/LoRaWAN/LmHandler/NvmCtxMgmt.h:
 
 ../../../LoRaWAN/App/lora_info.h:
 
