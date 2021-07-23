@@ -1,0 +1,8 @@
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x8000000, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x8000200, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x8003c00, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x20001010, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x8000000, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x8000200, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x8003c00, is this intentional?
+arm-none-eabi-objcopy: SBSFU.elf: warning: empty loadable segment detected at vaddr=0x20001010, is this intentional?

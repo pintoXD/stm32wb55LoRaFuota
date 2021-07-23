@@ -20,7 +20,6 @@ OBJCOPY_BIN :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-. \
 Application/STM32CubeIDE \
 Application/User \
 Drivers/STM32WBxx_HAL_Driver \

@@ -1,0 +1,14 @@
+sfu_low_level.c:61:17:SFU_LL_DeInit	0	static
+sfu_low_level.c:96:17:SFU_LL_CRC_Config	8	static
+sfu_low_level.c:76:17:SFU_LL_CRC_Init	8	static
+sfu_low_level.c:46:17:SFU_LL_Init	0	static
+sfu_low_level.c:164:10:SFU_LL_CRC_Calculate	0	static
+sfu_low_level.c:176:17:SFU_LL_UART_Init	8	static
+sfu_low_level.c:215:17:SFU_LL_UART_DeInit	0	static
+sfu_low_level.c:239:17:SFU_LL_UART_Transmit	8	static
+sfu_low_level.c:266:17:SFU_LL_UART_Receive	8	static
+sfu_low_level.c:289:17:SFU_LL_UART_Flush	0	static
+sfu_low_level.c:366:6:SFU_LL_RTC_MspInit	168	static
+sfu_low_level.c:435:6:SFU_LL_RTC_MspDeInit	0	static
+sfu_low_level.c:451:6:SFU_LL_UART_MspInit	56	static
+sfu_low_level.c:491:6:SFU_LL_UART_MspDeInit	8	static

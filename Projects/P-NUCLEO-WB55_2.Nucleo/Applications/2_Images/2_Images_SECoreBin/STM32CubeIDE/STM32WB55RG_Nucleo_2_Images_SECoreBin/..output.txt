@@ -1,0 +1,6 @@
+SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256 selected
+python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py trans -a GNU -k ../..../Binary/OEM_KEY_COMPANY1_key_AES_CBC.bin -f SE_ReadKey_1 -v V7M : failed
+ selected
+ selected
+ln -s ./.sh ../..postbuild.sh : failed
+ln -s ./python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py conf ../../Inc/se_crypto_config.h.sh ../..postbuild.sh : failed

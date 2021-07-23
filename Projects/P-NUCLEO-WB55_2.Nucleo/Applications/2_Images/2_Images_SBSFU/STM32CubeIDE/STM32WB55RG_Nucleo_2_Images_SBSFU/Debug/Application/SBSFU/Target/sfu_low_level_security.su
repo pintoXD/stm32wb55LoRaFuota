@@ -1,0 +1,10 @@
+sfu_low_level_security.c:208:17:SFU_LL_SECU_CheckApplyStaticProtections	96	static
+sfu_low_level_security.c:428:6:SFU_LL_SECU_GetResetSources	0	static
+sfu_low_level_security.c:477:6:SFU_LL_SECU_ClearResetSources	0	static
+sfu_low_level_security.c:489:17:SFU_LL_SECU_IWDG_Refresh	8	static
+sfu_low_level_security.c:684:17:SFU_LL_SECU_SetProtectionMPU_UserApp	24	static
+sfu_low_level_security.c:753:17:SFU_LL_SECU_SetProtectionMPU	48	static
+sfu_low_level_security.c:967:17:SFU_LL_SECU_SetProtectionDMA	8	static
+sfu_low_level_security.c:1052:17:SFU_LL_SECU_SetProtectionDAP	32	static
+sfu_low_level_security.c:1081:17:SFU_LL_SECU_SetProtectionANTI_TAMPER	56	static
+sfu_low_level_security.c:309:17:SFU_LL_SECU_CheckApplyRuntimeProtections	16	static

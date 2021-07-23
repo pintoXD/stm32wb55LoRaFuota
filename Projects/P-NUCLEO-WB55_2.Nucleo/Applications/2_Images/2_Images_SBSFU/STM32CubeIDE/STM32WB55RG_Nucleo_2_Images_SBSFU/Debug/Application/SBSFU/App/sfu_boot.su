@@ -1,0 +1,16 @@
+sfu_boot.c:1288:13:SFU_BOOT_SM_HandleCriticalFailure	8	static
+sfu_boot.c:978:13:SFU_BOOT_SM_RollbackInstallPrevUserFw	8	static
+sfu_boot.c:549:13:SFU_BOOT_SM_CheckUserFwStatus	16	static
+sfu_boot.c:768:13:SFU_BOOT_SM_DownloadNewUserFw	32	static
+sfu_boot.c:474:13:SFU_BOOT_SM_CheckNewFwToDownload	8	static
+sfu_boot.c:446:13:SFU_BOOT_SM_CheckStatusOnReset	16	static
+sfu_boot.c:341:24:SFU_BOOT_DeInit	16	static
+sfu_boot.c:1018:13:SFU_BOOT_SM_VerifyUserFwSignature	24	static
+sfu_boot.c:233:6:SFU_BOOT_ForceReboot	8	static,ignoring_inline_asm
+sfu_boot.c:181:27:SFU_BOOT_RunSecureBootService	24	static
+sfu_boot.c:1304:13:SFU_BOOT_SM_RebootStateMachine	8	static
+sfu_boot.c:946:13:SFU_BOOT_SM_ResumeInstallNewUserFw	8	static
+sfu_boot.c:1149:13:SFU_BOOT_SM_ExecuteUserFw	24	static
+sfu_boot.c:856:13:SFU_BOOT_SM_InstallNewUserFw	16	static
+sfu_boot.c:1570:6:HAL_RTCEx_Tamper2EventCallback	0	static
+sfu_boot.c:1582:6:MemManage_Handler	0	static

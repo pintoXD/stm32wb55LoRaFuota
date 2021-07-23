@@ -2,8 +2,8 @@
 #prebuild script 
 
 echo "AQUI? ó $1"
-echo prebuild.sh : started > output.txt
-asmfile=se_key.s
+echo prebuild.sh : started > "$1/"output.txt
+asmfile="$1/"se_key.s
 # comment this line to force python
 # python is used if  executable not found
 current_directory=`pwd`
@@ -33,7 +33,8 @@ else
 fi
 
 echo "$cmd $prepareimage" >> output.txt
-crypto_h=$1../Inc/se_crypto_config.h
+crypto_h=$1/Inc/se_crypto_config.h
+echo "==============> CRIPTO_H equals to $crypto_h"
 
 #clean
 if [ -e "$1/crypto.txt" ]; then
@@ -51,9 +52,9 @@ fi
 #get crypto name
 command="$cmd $prepareimage conf "$crypto_h""
 echo $command
-crypto=`$command`
-echo $crypto > $1"crypto.txt"
-echo "$crypto selected">> $1"output.txt"
+crypto=$command
+echo $crypto > $1"/crypto.txt"
+echo "$crypto selected">> $1"/output.txt"
 echo $crypto selected
 ret=$?
 

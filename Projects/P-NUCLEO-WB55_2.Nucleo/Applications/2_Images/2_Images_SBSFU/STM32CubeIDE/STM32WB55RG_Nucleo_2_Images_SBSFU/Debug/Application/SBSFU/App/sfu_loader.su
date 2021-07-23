@@ -1,0 +1,6 @@
+sfu_loader.c:637:24:SFU_LOADER_VerifyFwHeader	56	static
+sfu_loader.c:65:17:SFU_LOADER_Init	0	static
+sfu_loader.c:102:17:SFU_LOADER_DeInit	0	static
+sfu_loader.c:119:17:SFU_LOADER_DownloadNewUserFw	40	static
+sfu_loader.c:180:17:SFU_COM_YMODEM_HeaderPktRxCpltCallback	8	static
+sfu_loader.c:213:17:SFU_COM_YMODEM_DataPktRxCpltCallback	32	static
