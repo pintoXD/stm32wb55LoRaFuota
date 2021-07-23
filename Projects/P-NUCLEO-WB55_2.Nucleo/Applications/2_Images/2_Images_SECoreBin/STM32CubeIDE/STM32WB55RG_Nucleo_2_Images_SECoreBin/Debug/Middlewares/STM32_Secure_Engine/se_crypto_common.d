@@ -1,8 +1,8 @@
 Middlewares/STM32_Secure_Engine/se_crypto_common.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h \
  ../../../Inc/se_def_metadata.h ../../../Inc/se_crypto_config.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/crypto.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/config.h \
@@ -81,11 +81,11 @@ Middlewares/STM32_Secure_Engine/se_crypto_common.o: \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/CHACHA/chacha.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/CHACHA20-POLY1305/chacha20-poly1305.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h:
 
 ../../../Inc/se_def_metadata.h:
 

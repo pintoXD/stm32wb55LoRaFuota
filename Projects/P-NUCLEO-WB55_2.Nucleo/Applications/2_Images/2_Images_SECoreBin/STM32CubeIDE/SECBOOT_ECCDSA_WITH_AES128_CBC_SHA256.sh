@@ -1,4 +1,4 @@
-#!/bin/bash - 
+#!/bin/bash
 #Post build for SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256
 # arg1 is the build directory
 # arg2 is the elf file path+name
@@ -6,13 +6,22 @@
 # arg4 is the firmware Id (1/2/3)
 # arg5 is the version
 # arg6 when present forces "bigelf" generation
+
+echo "arg1 $1"
+echo "arg2 $2"
+echo "arg3 $3"
+echo "arg4 $4"
+echo "arg5 $5"
+echo "arg6 $6"
+
+
 projectdir=$1
 FileName=${3##*/}
 execname=${FileName%.*}
 elf=$2
 bin=$3
 fwid=$4
-version=$5
+version=1
 
 SecureEngine=${0%/*} 
 
@@ -62,7 +71,7 @@ else
   # line for python
   echo "prepareimage with python script"
   prepareimage=$basedir/prepareimage.py
-  cmd="python"
+  cmd="python3"
 fi
 
 echo "$cmd $prepareimage" >> $1/output.txt

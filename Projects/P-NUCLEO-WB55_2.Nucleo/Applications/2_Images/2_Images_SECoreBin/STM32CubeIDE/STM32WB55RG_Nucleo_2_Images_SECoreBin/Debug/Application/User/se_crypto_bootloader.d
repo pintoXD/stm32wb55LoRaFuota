@@ -1,5 +1,5 @@
 Application/User/se_crypto_bootloader.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/Src/se_crypto_bootloader.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/Src/se_crypto_bootloader.c \
  ../../../Inc/se_crypto_bootloader.h ../../../Inc/se_crypto_config.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/crypto.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/config.h \

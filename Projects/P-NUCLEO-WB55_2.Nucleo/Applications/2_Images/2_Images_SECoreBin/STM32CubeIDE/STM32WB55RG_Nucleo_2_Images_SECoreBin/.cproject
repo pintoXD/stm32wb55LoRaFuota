@@ -115,9 +115,9 @@
                                     									
                                     <listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/STM32_WPAN"/>
                                     									
-                                    <listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl"/>
-                                    									
                                     <listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl"/>
                                     									
                                     <listOptionValue builtIn="false" value="../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci"/>
                                     									

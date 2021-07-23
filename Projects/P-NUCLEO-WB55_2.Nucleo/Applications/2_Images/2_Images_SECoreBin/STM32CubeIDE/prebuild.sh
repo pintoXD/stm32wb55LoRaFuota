@@ -1,7 +1,7 @@
 #!/bin/bash
 #prebuild script 
 
-echo "AQUI? ó $1"
+# echo "AQUI? ó $1"
 echo prebuild.sh : started > "$1/"output.txt
 asmfile="$1/"se_key.s
 # comment this line to force python
@@ -33,28 +33,29 @@ else
 fi
 
 echo "$cmd $prepareimage" >> output.txt
-crypto_h=$1/Inc/se_crypto_config.h
-echo "==============> CRIPTO_H equals to $crypto_h"
+crypto_h=$1/../Inc/se_crypto_config.h
+# echo "==============> CRIPTO_H equals to $crypto_h"
 
 #clean
 if [ -e "$1/crypto.txt" ]; then
-  rm $1"/crypto.txt"
+  rm "$1/crypto.txt"
 fi
 
 if [ -e "$asmfile" ]; then
   rm $asmfile
 fi
 
-if [ -e "$1"/postbuild.sh ]; then
-  rm $1"/postbuild.sh"
+if [ -e "$1/"postbuild.sh ]; then
+  rm "$1/postbuild.sh"
 fi
 
 #get crypto name
 command="$cmd $prepareimage conf "$crypto_h""
 echo $command
-crypto=$command
-echo $crypto > $1"/crypto.txt"
-echo "$crypto selected">> $1"/output.txt"
+crypto=`$command`
+# echo "=========> CRYPTO AQUI Ó ==> $crypto"
+echo $crypto > "$1/crypto.txt"
+echo "$crypto selected" >> "$1/output.txt"
 echo $crypto selected
 ret=$?
 
@@ -74,14 +75,14 @@ if [ $ret -eq 0 ]; then
   fi
 
   if [ $type != "vide" ]; then
-    oemkey="$1../Binary/OEM_KEY_COMPANY1_key_AES_$type.bin"
+    oemkey="$1/../Binary/OEM_KEY_COMPANY1_key_AES_$type.bin"
     command=$cmd" "$prepareimage" trans -a GNU -k "$oemkey" -f SE_ReadKey_1 -v "$cortex
     echo $command
     $command >> $asmfile
     ret=$?
         
     if [ $ret -eq 0 ]; then
-      oemkey="$1../Binary/OEM_KEY_COMPANY2_key_AES_$type.bin"
+      oemkey="$1/../Binary/OEM_KEY_COMPANY2_key_AES_$type.bin"
       if [ -e "$oemkey" ]; then
         command=$cmd" "$prepareimage" trans -a GNU -k "$oemkey" -f SE_ReadKey_2 -v "$cortex
         echo $command
@@ -91,7 +92,7 @@ if [ $ret -eq 0 ]; then
     fi
 
     if [ $ret -eq 0 ]; then
-        oemkey="$1../Binary/OEM_KEY_COMPANY3_key_AES_$type.bin"
+        oemkey="$1/../Binary/OEM_KEY_COMPANY3_key_AES_$type.bin"
         if [ -e "$oemkey" ]; then
             command=$cmd" "$prepareimage" trans -a GNU -k "$oemkey" -f SE_ReadKey_3 -v "$cortex
             echo $command
@@ -113,14 +114,14 @@ if [ $ret -eq 0 ]; then
   fi
 
   if [ $type != "vide" ]; then
-    ecckey=$1"../Binary/ECCKEY1.txt"
+    ecckey=$1"/../Binary/ECCKEY1.txt"
     command=$cmd" "$prepareimage" trans  -a GNU -k "$ecckey" -f SE_ReadKey_1_Pub -v "$cortex
     echo $command
     $command >> $asmfile
     ret=$?
 
     if [ $ret -eq 0 ]; then
-      ecckey=$1"../Binary/ECCKEY2.txt"
+      ecckey=$1"/../Binary/ECCKEY2.txt"
       if [ -e "$ecckey" ]; then
         command=$cmd" "$prepareimage" trans  -a GNU -k "$ecckey" -f SE_ReadKey_2_Pub -v "$cortex
         echo $command
@@ -130,7 +131,7 @@ if [ $ret -eq 0 ]; then
     fi
 
     if [ $ret -eq 0 ]; then
-      ecckey=$1"../Binary/ECCKEY3.txt"
+      ecckey=$1"/../Binary/ECCKEY3.txt"
       if [ -e "$ecckey" ]; then
         command=$cmd" "$prepareimage" trans  -a GNU -k "$ecckey" -f SE_ReadKey_3_Pub -v "$cortex
         echo $command
@@ -152,7 +153,7 @@ if [ $ret -eq 0 ]; then
         ret=$?
     else
         echo "create symbolic link postbuild.sh to "$crypto".sh"
-        command="ln -s ./"$crypto".sh "$1"postbuild.sh"
+        command="ln -s ./"$crypto".sh "$1"/postbuild.sh"
         $command
         ret=$?
     fi

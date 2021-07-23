@@ -1,6 +1,5 @@
-Middlewares/STM32_WPAN/stm_list.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/utilities/stm_list.c \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
+Middlewares/STM32_WPAN/stm_list.o: ../Middlewares/STM32_WPAN/stm_list.c \
+ ../../../../../../../../Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
  ../../../Inc/app_conf.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../../Inc/hw_conf.h ../../../Inc/hw_if.h \
@@ -68,11 +67,11 @@ Middlewares/STM32_WPAN/stm_list.o: \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_gpio.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rtc.h \
  ../../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/utilities/stm_list.h \
+ ../../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
+../../../../../../../../Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
 
 ../../../Inc/app_conf.h:
 
@@ -210,7 +209,7 @@ Middlewares/STM32_WPAN/stm_list.o: \
 
 ../../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/utilities/stm_list.h:
+../../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h:
 
 ../../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h:
 

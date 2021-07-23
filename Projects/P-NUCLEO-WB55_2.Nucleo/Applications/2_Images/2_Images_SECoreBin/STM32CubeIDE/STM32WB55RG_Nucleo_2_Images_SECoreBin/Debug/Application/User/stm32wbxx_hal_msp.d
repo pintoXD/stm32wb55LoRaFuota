@@ -1,5 +1,5 @@
 Application/User/stm32wbxx_hal_msp.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/Src/stm32wbxx_hal_msp.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/Src/stm32wbxx_hal_msp.c \
  ../../../Inc/se_low_level.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h \

@@ -1,12 +1,11 @@
-Middlewares/STM32_WPAN/tl_mbox.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c \
+Middlewares/STM32_WPAN/tl_mbox.o: ../Middlewares/STM32_WPAN/tl_mbox.c \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h \
+ ../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
+ ../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h \
  ../../../Inc/tl_dbg_conf.h ../../../Inc/app_conf.h \
  ../../../Inc/hw_conf.h ../../../Inc/hw_if.h \
  ../../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
@@ -84,9 +83,9 @@ Middlewares/STM32_WPAN/tl_mbox.o: \
 
 ../../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
+../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h:
+../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h:
 
 ../../../Inc/tl_dbg_conf.h:
 

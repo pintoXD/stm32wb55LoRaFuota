@@ -1,2 +1,2 @@
 prebuild.sh : started
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py conf ../../Inc/se_crypto_config.h selected
+SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256 selected

@@ -1,5 +1,5 @@
 Middlewares/STM32_Secure_Engine/se_callgate.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_callgate.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_callgate.c \
  ../../../Inc/se_crypto_bootloader.h ../../../Inc/se_crypto_config.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/crypto.h \
  ../../../../../../../../Middlewares/ST/STM32_Cryptographic/Fw_Crypto/STM32WB/Inc/config.h \
@@ -80,10 +80,10 @@ Middlewares/STM32_Secure_Engine/se_callgate.o: \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h \
  ../../../Inc/se_def_metadata.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_user_application.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_callgate.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_user_application.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_callgate.h \
  ../../../Inc/se_low_level.h \
  ../../../../2_Images_SBSFU/SBSFU/App/sfu_fwimg_regions.h \
  ../../../../2_Images_SBSFU/SBSFU/App/app_sfu.h \
@@ -142,10 +142,10 @@ Middlewares/STM32_Secure_Engine/se_callgate.o: \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_usart_ex.h \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Key/se_key.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_utils.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_fwimg.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_startup.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_intrinsics.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_utils.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_fwimg.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_startup.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_intrinsics.h \
  ../../../Inc/se_cm0.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h \
@@ -170,9 +170,9 @@ Middlewares/STM32_Secure_Engine/se_callgate.o: \
  ../../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rtc.h \
  ../../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
  ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_common.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_bootloader.h \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_application.h
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_common.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_bootloader.h \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_application.h
 
 ../../../Inc/se_crypto_bootloader.h:
 
@@ -336,13 +336,13 @@ Middlewares/STM32_Secure_Engine/se_callgate.o: \
 
 ../../../Inc/se_def_metadata.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_crypto_common.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_def.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_user_application.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_user_application.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_callgate.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_callgate.h:
 
 ../../../Inc/se_low_level.h:
 
@@ -460,13 +460,13 @@ Middlewares/STM32_Secure_Engine/se_callgate.o: \
 
 ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Key/se_key.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_utils.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_utils.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_fwimg.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_fwimg.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_startup.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_startup.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_intrinsics.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_intrinsics.h:
 
 ../../../Inc/se_cm0.h:
 
@@ -518,8 +518,8 @@ Middlewares/STM32_Secure_Engine/se_callgate.o: \
 
 ../../../../../../../../Middlewares/ST/STM32_Secure_Engine/Core/se_def_core.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_common.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_common.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_bootloader.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_bootloader.h:
 
-/home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_application.h:
+/home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Core/se_interface_application.h:

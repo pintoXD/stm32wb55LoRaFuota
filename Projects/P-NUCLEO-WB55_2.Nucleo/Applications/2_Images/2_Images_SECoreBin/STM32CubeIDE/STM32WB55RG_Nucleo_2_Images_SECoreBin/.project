@@ -151,30 +151,5 @@
 			<type>1</type>
 			<locationURI>PARENT-7-PROJECT_LOC/Middlewares/ST/STM32_Secure_Engine/Core/se_utils.c</locationURI>
 		</link>
-		<link>
-			<name>Middlewares/STM32_WPAN/shci.c</name>
-			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci/shci.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/STM32_WPAN/shci_tl.c</name>
-			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/STM32_WPAN/shci_tl_if.c</name>
-			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/shci_tl_if.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/STM32_WPAN/stm_list.c</name>
-			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/Middlewares/ST/STM32_WPAN/utilities/stm_list.c</locationURI>
-		</link>
-		<link>
-			<name>Middlewares/STM32_WPAN/tl_mbox.c</name>
-			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c</locationURI>
-		</link>
 	</linkedResources>
 </projectDescription>

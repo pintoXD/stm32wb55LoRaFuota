@@ -1,5 +1,5 @@
 Application/User/se_cm0.o: \
- /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/Src/se_cm0.c \
+ /home/otto/Documentos/repos/stm32wb55LoRaFuota/Projects/P-NUCLEO-WB55_2.Nucleo/Applications/2_Images/2_Images_SECoreBin/Src/se_cm0.c \
  ../../../Inc/se_cm0.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
  ../../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h \

@@ -1,13 +1,4 @@
-prebuild.sh : started
 prepareimage with python script
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
+python3 /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
 prepareimage with python script
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-prepareimage with python script
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-prepareimage with python script
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-prepareimage with python script
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
-prepareimage with python script
-python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py
+python3 /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py

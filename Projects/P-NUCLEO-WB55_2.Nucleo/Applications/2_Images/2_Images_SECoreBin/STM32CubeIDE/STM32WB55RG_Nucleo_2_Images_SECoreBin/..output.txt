@@ -4,3 +4,13 @@ python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/M
  selected
 ln -s ./.sh ../..postbuild.sh : failed
 ln -s ./python3 /home/otto/hd_storage/Documentos/Mobit/STM32CubeExpansion_SBSFU_V2.5.0/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py conf ../../Inc/se_crypto_config.h.sh ../..postbuild.sh : failed
+ln -s ./python3 /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py conf ../../Inc/se_crypto_config.h.sh ../..postbuild.sh : failed
+ln -s ./python3 /home/otto/Documentos/repos/stm32wb55LoRaFuota/Middlewares/ST/STM32_Secure_Engine/Utilities/KeysAndImages/prepareimage.py conf ../../Inc/se_crypto_config.h.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./.sh ../../postbuild.sh : failed
+ln -s ./SECBOOT_ECCDSA_WITH_AES128_CBC_SHA256.sh ../../postbuild.sh : failed
